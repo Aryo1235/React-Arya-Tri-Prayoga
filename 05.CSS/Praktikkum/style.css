@@ -216,6 +216,8 @@ footer {
 .footer-column,
 .captions {
   margin-top: 18px;
+  font-family: "open sans", sans-serif;
+  max-width: 278px;
 }
 .social-links {
   display: flex;
@@ -233,12 +235,13 @@ footer {
 .social-links a:hover {
   color: #357aab;
 }
+
 .footer-bottom {
   display: flex;
   justify-content: space-between;
   background-color: #37517e;
   align-items: center;
-  padding: 25px 0;
+  height: 81px;
 }
 
 .footer-bottom p {

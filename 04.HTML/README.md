@@ -1,9 +1,8 @@
-1. Sebagai Front end Developer sebelum memahami sebuah bahasa pemograman alangkah lebih baik memahami bagaimana konsep teknologi berkerja
+1. Struktur Dasar Halaman Web:
+   HTML (HyperText Markup Language) adalah bahasa markup yang digunakan untuk membuat struktur dan konten pada halaman web. Elemen-elemen HTML seperti <div>, <p>, <h1> hingga <img> digunakan untuk membangun bagian-bagian halaman seperti paragraf, judul, gambar, dan lainnya.
 
-2. Struktur Web: HTML, CSS, dan JavaScript
-   Front-end development dibangun di atas tiga teknologi utama:
-   HTML sebagai struktur dasar halaman web.
-   CSS untuk mendesain dan mengatur tampilan.
-   JavaScript untuk menambahkan interaktivitas dan logika pada halaman web. Menguasai ketiga elemen ini adalah pondasi untuk setiap front-end developer.
+2. Elemen dan Tag:
+   HTML terdiri dari elemen-elemen yang diapit oleh tag pembuka (<tag>) dan tag penutup (</tag>), meskipun beberapa elemen seperti <img> atau <input> bersifat self-closing (tidak memerlukan tag penutup). Elemen-elemen ini menyusun layout dan mengatur jenis konten pada halaman web.
 
-3. Menggunakan alat-alat pengembang seperti browser DevTools, Git untuk version control, dan build tools (npm, yarn) penting untuk meningkatkan produktivitas. Ini membantu memastikan bahwa kode tetap terorganisir dan mudah dikelola, terutama dalam proyek skala besar.
+3. Semantik Web:
+   HTML modern (seperti HTML5) mengutamakan elemen semantik yang memberikan makna jelas pada konten. Elemen semantik seperti <header>, <footer>, <article>, dan <section> membantu mesin pencari dan pengembang memahami struktur konten, sehingga meningkatkan SEO dan aksesibilitas.

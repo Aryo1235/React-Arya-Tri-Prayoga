@@ -2,237 +2,205 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <style>
-    .custom-font {
-      font-family: 'Roboto', sans-serif;
-    }
-  </style>
-  <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/05.CSS/Praktikkum/assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Tugas HTML</title>
 </head>
 
 <body>
-  <header>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <!-- Logo di Kiri -->
-        <a class="navbar-brand" href="#">
-          <h3>SIMPLE HEADER</h3>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <!-- Nav List di Kanan -->
-          <ul class="navbar-nav ms-auto me-5">
-            <li class="nav-item me-3">
-              <a class="nav-link active text-bg-primary rounded-2 fw-normal" href="/">Home</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link text-primary fw-normal" href="#">Features</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link text-primary fw-normal" href="#">Pricing</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link text-primary fw-normal">Disabled</a>
-            </li>
-          </ul>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- Logo di Kiri -->
+                <a class="navbar-brand" href="#">
+                    <h3>SIMPLE HEADER</h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- Nav List di Kanan -->
+                    <ul class="navbar-nav ms-auto me-5">
+                        <li class="nav-item me-3 ">
+                            <a class="nav-link active text-bg-primary rounded-2 fw-normal" href="/">Home</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link text-primary fw-normal" href="#">Features</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link text-primary fw-normal" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link text-primary fw-normal">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container-hero">
+            <div class="container-content">
+                <div class="content-1">
+                    <h1>Better Solutions For Your Business</h1>
+                    <p>
+                        We are team of talented designers making websites with Bootstrap
+                    </p>
+                    <div class="button-container">
+                        <a href="" class="btn">Get Started</a>
+                        <a href="" class="btn-nobg">Watch</a>
+                    </div>
+                </div>
+                <div class="content-2">
+                    <img src="/06.bootstrap/Praktikkum/assets/image1.png" alt="gambar" />
+                </div>
+            </div>
+        </section>
+
+        <section class="my-4">
+            <h1 class="mb-4 ms-5 ps-5 text-primary-emphasis fw-bold">
+                Product List
+            </h1>
+            <div class="row justify-content-around">
+                <!-- Card pertama (kiri) -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="card shadow" style="width: 100%;">
+                        <img src="/06.bootstrap/Praktikkum/assets/image1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                                <span> 9 mins </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card kedua (tengah) -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 ">
+                    <div class="card shadow" style="width: 100%;">
+                        <img src="/06.bootstrap/Praktikkum/assets/image1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                                <span> 9 mins </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card ketiga (kanan) -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="card shadow" style="width: 100%;">
+                        <img src="/06.bootstrap/Praktikkum/assets/image1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                                <span> 9 mins </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end me-5">
+                <a class="btn btn-primary col-1 me-5" href="#" role="button">Load More...</a>
+            </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="container-input">
+            <h2>Join Our Newsletter</h2>
+            <p>
+                Tamen quem nulla quae legam multos aute sint culpa legam noster magna
+            </p>
+            <div class="subscribe-form">
+                <form>
+                    <input type="email" placeholder="Enter your email" required />
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>ARSHA</h3>
+                <p>
+                    A108 Adam Street<br>
+                    New York, NY 535022<br>
+                    United States<br><br>
+                    <strong>Phone:</strong> +1 5589 55488 55<br>
+                    <strong>Email:</strong> info@example.com<br>
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Terms of service</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Our Services</h4>
+                <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Product Management</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Our Social Networks</h4>
+                <p class="captions">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                <div class="social-links">
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
         </div>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <section class="container mt-5">
-      <div class="row justify-content-center">
-        <div class="col-12 text-center mb-4"> <!-- Kolom untuk SVG dan judul -->
-          <svg width="72" height="57" viewBox="0 0 72 57" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_405_4736)">
-              <path
-                d="M8.12608 7.44912C7.99112 3.57368 11.0106 0 15.092 0H56.9133C60.9947 0 64.0142 3.57368 63.8792 7.44912C63.7496 11.1719 63.9179 15.9942 65.1315 19.9263C66.3491 23.8704 68.4022 26.3635 71.7648 26.6838V30.3162C68.4022 30.6365 66.3491 33.1296 65.1315 37.0737C63.9179 41.0058 63.7496 45.8281 63.8792 49.551C64.0142 53.4263 60.9947 57 56.9133 57H15.092C11.0106 57 7.99112 53.4263 8.12622 49.551C8.25573 45.8281 8.08738 41.0058 6.87362 37.0737C5.65622 33.1296 3.59807 30.6365 0.235352 30.3162V26.6838C3.59793 26.3635 5.65622 23.8704 6.87362 19.9263C8.08738 15.9942 8.25573 11.1719 8.12608 7.44912Z"
-                fill="url(#paint0_linear_405_4736)" />
-              <g filter="url(#filter0_d_405_4736)">
-                <path
-                  d="M37.5512 43.6521C44.1588 43.6521 48.1406 40.4168 48.1406 35.0805C48.1406 31.0467 45.2995 28.1265 41.081 27.6642V27.4961C44.1803 26.9919 46.6125 24.1137 46.6125 20.8993C46.6125 16.3194 42.9966 13.3359 37.4866 13.3359H25.0891V43.6521H37.5512ZM29.9104 17.1806H36.3244C39.8112 17.1806 41.7912 18.7353 41.7912 21.5505C41.7912 24.5549 39.4883 26.2355 35.3128 26.2355H29.9104V17.1806ZM29.9104 39.8075V29.8282H36.2812C40.8442 29.8282 43.2118 31.5089 43.2118 34.7864C43.2118 38.0637 40.9088 39.8075 36.5611 39.8075H29.9104Z"
-                  fill="url(#paint1_linear_405_4736)" />
-                <path
-                  d="M37.5512 43.6521C44.1588 43.6521 48.1406 40.4168 48.1406 35.0805C48.1406 31.0467 45.2995 28.1265 41.081 27.6642V27.4961C44.1803 26.9919 46.6125 24.1137 46.6125 20.8993C46.6125 16.3194 42.9966 13.3359 37.4866 13.3359H25.0891V43.6521H37.5512ZM29.9104 17.1806H36.3244C39.8112 17.1806 41.7912 18.7353 41.7912 21.5505C41.7912 24.5549 39.4883 26.2355 35.3128 26.2355H29.9104V17.1806ZM29.9104 39.8075V29.8282H36.2812C40.8442 29.8282 43.2118 31.5089 43.2118 34.7864C43.2118 38.0637 40.9088 39.8075 36.5611 39.8075H29.9104Z"
-                  stroke="white" stroke-width="0.139706" />
-              </g>
-            </g>
-            <defs>
-              <filter id="filter0_d_405_4736" x="22.784" y="11.5896" width="27.6618" height="34.9264"
-                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                  result="hardAlpha" />
-                <feOffset dy="0.558824" />
-                <feGaussianBlur stdDeviation="1.11765" />
-                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_405_4736" />
-                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_405_4736" result="shape" />
-              </filter>
-              <linearGradient id="paint0_linear_405_4736" x1="10.864" y1="1.50855" x2="73.3686" y2="51.1247"
-                gradientUnits="userSpaceOnUse">
-                <stop stop-color="#9013FE" />
-                <stop offset="1" stop-color="#6610F2" />
-              </linearGradient>
-              <linearGradient id="paint1_linear_405_4736" x1="27.2695" y1="15.3314" x2="41.2409" y2="38.9601"
-                gradientUnits="userSpaceOnUse">
-                <stop stop-color="white" />
-                <stop offset="1" stop-color="#F1E5FC" />
-              </linearGradient>
-              <clipPath id="clip0_405_4736">
-                <rect width="71.5294" height="57" fill="white" transform="translate(0.235352)" />
-              </clipPath>
-            </defs>
-          </svg>
 
-          <p class="h2 custom-font fw-bold col-12 mt-3">
-            Create Product
-          </p>
-          <p class="custom-font col-7  mx-auto">
-            Below is an example form built entirely with Bootstraps form controls. Each required form group has a
-            validation state that can be triggered by attempting to submit the form without completing it.
-          </p>
+        <div class="footer-bottom">
+            <p>© Copyright <strong>Arsha</strong>. All Rights Reserved</p>
+            <p>Designed by <a href="#">BootstrapMade</a></p>
         </div>
+    </footer>
 
 
-        <!-- Grid untuk form -->
 
-        <div class="col-md-6 p-4 ">
-
-          <p class="h4 fw-bold">Detail Product</p>
-
-          <form class="needs-validation" novalidate>
-            <!-- Row untuk input pertama dengan lebar col-6 -->
-            <div class="row mb-3">
-              <div class="col-md-5">
-                <label for="productName" class="form-label">Product Name</label>
-                <input id="productName" class="form-control" type="text" placeholder="Enter product name" required>
-                <div class="invalid-feedback">
-                  Please enter the product name.
-                </div>
-              </div>
-            </div>
-
-            <!-- Row untuk input kedua dengan lebar col-8 -->
-            <div class="row mb-3">
-              <div class="col-md-4">
-                <label for="productCategory" class="form-label">Product Category</label>
-                <select id="productCategory" class="form-select" required>
-                  <option selected disabled value="">Choose category</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-                <div class="invalid-feedback">
-                  Please select a product category.
-                </div>
-              </div>
-            </div>
-
-            <!-- Row untuk input file dengan lebar col-6 -->
-            <div class="row mb-3">
-              <div class="col-md-5">
-                <label for="formFile" class="form-label">Image Of Product</label>
-                <input class="form-control text-bg-primary" type="file" id="formFile" required>
-                <div class="invalid-feedback">
-                  Please upload a product image.
-                </div>
-              </div>
-            </div>
-
-            <!-- Row untuk radio button -->
-            <div class="row mb-3">
-              <div class="col-md-5">
-                <label for="form-check" class="form-label">Product Freshness</label>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
-                  <label class="form-check-label" for="flexRadioDefault1">
-                    Brand new
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" required>
-                  <label class="form-check-label" for="flexRadioDefault2">
-                    Second Hand
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" required>
-                  <label class="form-check-label" for="flexRadioDefault3">
-                    Refurbished
-                  </label>
-                </div>
-                <div class="invalid-feedback">
-                  Please select the product freshness.
-                </div>
-              </div>
-            </div>
-
-            <!-- Row untuk textarea dengan lebar col-12 -->
-            <div class="row mb-3">
-              <div class="col-md-12">
-                <label for="exampleFormControlTextarea1" class="form-label">Description</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
-                <div class="invalid-feedback">
-                  Please provide a product description.
-                </div>
-              </div>
-            </div>
-
-            <!-- Row untuk input price dengan lebar col-4 -->
-            <div class="row mb-3">
-              <div class="col-md-12">
-                <label for="price" class="form-label">Price</label>
-                <input id="price" type="text" class="form-control" placeholder="Enter price" required>
-                <div class="invalid-feedback">
-                  Please enter a price for the product.
-                </div>
-              </div>
-            </div>
-
-            <!-- Tombol Submit -->
-            <div class="d-grid col-11 mx-auto">
-              <button class="btn btn-primary" type="submit">Submit</button>
-            </div>
-          </form>
-        </div>
-      </div>
-
-
-    </section>
-
-
-  </main>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <script>
-    // JavaScript untuk menangani validasi form
-    (function () {
-      'use strict'
-      var forms = document.querySelectorAll('.needs-validation')
-
-      Array.prototype.slice.call(forms).forEach(function (form) {
-        form.addEventListener('submit', function (event) {
-          if (!form.checkValidity()) {
-            event.preventDefault()
-            event.stopPropagation()
-          }
-
-          form.classList.add('was-validated')
-        }, false)
-      })
-    })()
-  </script>
 </body>
 
 </html>

@@ -1,7 +1,12 @@
-th {
-  padding: 0px 10px;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.input th {
 }
 
-tbody {
-  text-align: center;
+.label th {
+  padding-right: 60px;
 }

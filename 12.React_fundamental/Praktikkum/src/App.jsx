@@ -12,7 +12,7 @@ function App() {
           <MainContent />
           <ProductForm />
         </div>
-      </section>
+      </section>  
     </>
   );
 }

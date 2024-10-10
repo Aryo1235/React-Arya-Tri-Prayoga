@@ -1,6 +1,11 @@
 import { article } from "./Article";
+import { useState } from "react";
 
 const MainContent = () => {
+  const [language, setLanguage] = useState("en");
+  const toggleLanguage = () => {
+    setLanguage(language === "en" ? "id" : "en");
+  };
   return (
     <div className="col-12 text-center mb-4">
       {" "}
@@ -96,8 +101,16 @@ const MainContent = () => {
           </clipPath>
         </defs>
       </svg>
-      <p className="h2 custom-font fw-bold col-12 mt-3"> {article.title.en}</p>
-      <p className="custom-font col-7  mx-auto">{article.description.en}</p>
+      <p className="h2 custom-font fw-bold col-12 mt-3">
+        {" "}
+        {article.title[language]}
+      </p>
+      <p className="custom-font col-7  mx-auto">
+        {article.description[language]}
+      </p>
+      <button onClick={toggleLanguage} className="btn btn-primary mt-3">
+        {language === "en" ? "Gunakan Bahasa Indonesia" : "Use English"}
+      </button>
     </div>
   );
 };

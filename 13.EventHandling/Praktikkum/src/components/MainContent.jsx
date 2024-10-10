@@ -8,7 +8,6 @@ const MainContent = () => {
   };
   return (
     <div className="col-12 text-center mb-4">
-      {" "}
       {/* Kolom untuk SVG dan judul */}
       <svg
         width={72}
@@ -102,7 +101,6 @@ const MainContent = () => {
         </defs>
       </svg>
       <p className="h2 custom-font fw-bold col-12 mt-3">
-        {" "}
         {article.title[language]}
       </p>
       <p className="custom-font col-7  mx-auto">

@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import { useEffect, useState } from "react";
 
 function CreateProduct() {
   const [products, setProducts] = useState([]);
-  const [counter, setCounter] = useState(1000); // Nomor awal untuk produk
+  const [counter, setCounter] = useState(1001); // Nomor awal untuk produk
 
+  useEffect(() => {
+    alert("Welcome");
+  }, []);
   const [formData, setFormData] = useState({
     productName: "",
     productCategory: "",

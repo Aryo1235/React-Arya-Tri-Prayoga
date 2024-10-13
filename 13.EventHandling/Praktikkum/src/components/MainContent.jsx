@@ -2,9 +2,9 @@ import { article } from "./Article";
 import { useState } from "react";
 
 const MainContent = () => {
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState("id");
   const toggleLanguage = () => {
-    setLanguage(language === "en" ? "id" : "en");
+    setLanguage(language === "id" ? "en" : "id");
   };
   return (
     <div className="col-12 text-center mb-4">
@@ -107,7 +107,7 @@ const MainContent = () => {
         {article.description[language]}
       </p>
       <button onClick={toggleLanguage} className="btn btn-primary mt-3">
-        {language === "en" ? "Gunakan Bahasa Indonesia" : "Use English"}
+        {language === "id" ? "Gunakan Bahasa Indonesia" : "Use English"}
       </button>
     </div>
   );

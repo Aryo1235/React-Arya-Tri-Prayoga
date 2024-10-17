@@ -17,12 +17,12 @@ const Navbar = () => {
           <Link to="/about" className="text-gray-800 hover:text-blue-600">
             About
           </Link>
-          <a href="#services" className="text-gray-800 hover:text-blue-600">
+          <Link to="#services" className="text-gray-800 hover:text-blue-600">
             Services
-          </a>
-          <a href="#contact" className="text-gray-800 hover:text-blue-600">
+          </Link>
+          <Link to="#contact" className="text-gray-800 hover:text-blue-600">
             Contact
-          </a>
+          </Link>
         </nav>
       </div>
     </header>

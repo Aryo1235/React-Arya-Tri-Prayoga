@@ -3,7 +3,7 @@ const Card = () => {
     <div className="w-full flex justify-around p-4">
       <div className="bg-white rounded-lg shadow-md overflow-hidden max-w-96">
         <img
-          src="/public/image1.png"
+          src="image1.png"
           alt="..."
           className="w-96 h-80 object-cover object-center "
         />

@@ -230,7 +230,7 @@ function CreateProduct() {
               <td className="py-2 px-4 border-b text-left">
                 <button
                   onClick={() => handleEdit(product)}
-                  className="bg-yellow-500 text-white px-2 py-1 rounded mr-2"
+                  className="bg-yellow-500 text-white px-4 py-1 rounded mr-2"
                 >
                   Edit
                 </button>

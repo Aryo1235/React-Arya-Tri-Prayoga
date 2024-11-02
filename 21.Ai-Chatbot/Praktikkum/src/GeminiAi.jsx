@@ -4,9 +4,7 @@ import ReactMarkdown from "react-markdown"; // Import react-markdown
 
 function GeminiAi() {
   const [prompt, setPrompt] = useState("");
-  const [chatHistory, setChatHistory] = useState([
-    // Contoh chat history yang sudah ada di file lama
-  ]);
+  const [chatHistory, setChatHistory] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 

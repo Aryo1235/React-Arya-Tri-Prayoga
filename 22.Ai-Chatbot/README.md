@@ -1,0 +1,7 @@
+# Pengantar Artificial Intelligence dan Gemini AI
+
+1. **Perkenalan Artificial Intelligence (AI)**: Artificial Intelligence (AI) adalah bidang teknologi yang memungkinkan mesin untuk belajar dari data, memahami, dan melakukan tugas-tugas yang biasanya memerlukan kecerdasan manusia, seperti pengenalan gambar, pemrosesan bahasa, dan pengambilan keputusan. AI terbagi menjadi beberapa jenis, seperti Narrow AI (AI yang terbatas pada tugas spesifik) dan General AI (AI dengan kemampuan mirip kecerdasan manusia yang masih dalam tahap pengembangan). Saat ini, AI digunakan dalam berbagai industri, mulai dari kesehatan (untuk diagnosis), finansial (untuk analisis risiko), hingga teknologi (seperti asisten virtual).
+
+2. **Mengenal Gemini AI**: Gemini AI adalah salah satu model AI terbaru yang dirancang untuk meningkatkan interaksi manusia dan mesin, dengan kemampuan pemrosesan bahasa alami yang lebih baik serta pemahaman konteks yang lebih dalam. Gemini AI mendukung berbagai kasus penggunaan, termasuk pembuatan konten, percakapan interaktif, dan analisis data dengan respons yang cepat dan akurat, membuatnya cocok untuk beragam aplikasi.
+
+3. **Penggunaan Gemini AI dalam Industri**: Gemini AI dapat diterapkan di berbagai bidang industri, seperti chatbot cerdas untuk layanan pelanggan, rekomendasi konten untuk platform digital, dan analisis data yang kompleks dalam bisnis dan riset. Dengan arsitektur yang canggih, Gemini AI mampu memberikan solusi yang cepat dan efektif di banyak sektor.

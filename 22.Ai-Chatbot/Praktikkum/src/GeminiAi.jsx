@@ -72,14 +72,14 @@ function GeminiAi() {
     <div className="flex flex-col items-center justify-center h-screen bg-gray-900">
       <div className="bg-gray-100 rounded-lg shadow-lg p-6 w-full max-w-md">
         <h1 className="text-2xl font-bold mb-4 text-center text-blue-500">
-          AI Baruchat
+          Ai Gemini
         </h1>
 
         {/* Chat Window */}
         <div className="flex flex-col space-y-4 h-60 overflow-y-auto border border-gray-300 rounded-lg p-4 mb-4">
           {chatHistory.length === 0 && !loading ? (
             <p className="text-center text-gray-500">
-              Silahkan kirim pertanyaan tentang film!
+              Silahkan kirim pertanyaan Anda!!
             </p>
           ) : (
             chatHistory.map((chat, index) => (

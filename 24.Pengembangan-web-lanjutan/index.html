@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Web Page</title>
+    <style>
+        /* Warna lebih lembut dan ramah energi */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header,
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            background: #e8e8e8;
+        }
+
+        /* Styling untuk hero section agar tidak mengulang gambar */
+        .high-res-background {
+            width: 100%;
+            height: 800px;
+            background-image: url('gambar1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .content {
+            margin-bottom: 20px;
+        }
+
+        .link-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .link-list li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Eco-Friendly Web Page</h1>
+    </header>
+
+    <!-- Ganti dengan hero section yang menggunakan background image -->
+    <div class="high-res-background"></div>
+
+    <main>
+        <section class="content">
+            <h2>About Me</h2>
+            <!-- Gambar resolusi tinggi dioptimalkan dan dengan lazy loading -->
+            <img src="https://via.placeholder.com/1200x800" alt="Optimized Image" loading="lazy">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae velit ex.</p>
+        </section>
+        <section class="content">
+            <h2>My Interests</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae velit ex.</p>
+            <ul class="link-list">
+                <li><a href="#">Interest 1</a></li>
+                <li><a href="#">Interest 2</a></li>
+                <li><a href="#">Interest 3</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Eco-Friendly Web Page</p>
+    </footer>
+</body>
+
+</html>

@@ -1,3 +1,9 @@
-### Tantangan dalam Mengukur Jejak Karbon Website
+LINK PRAKTIKKUM=https://docs.google.com/document/d/1Do3SPUmE_973PA_keyWVJSLCY9EochDxk_mNVEANGmY/edit?usp=sharing
 
-Mengukur jejak karbon pada sebuah website memiliki beberapa tantangan, seperti kompleksitas infrastruktur yang melibatkan berbagai server dan jaringan yang sulit dilacak secara keseluruhan. Variabilitas sumber energi yang digunakan, baik terbarukan maupun fosil, mempengaruhi emisi karbon secara signifikan. Selain itu, perbedaan model pengukuran emisi dapat menghasilkan hasil yang bervariasi, dan perangkat yang digunakan oleh pengunjung (seperti ponsel atau PC) mempengaruhi konsumsi energi. Pengaruh jaringan internet, seperti kecepatan dan efisiensi koneksi, juga berkontribusi pada jejak karbon. Data terkait penggunaan energi pusat data dan perangkat pengguna sering kali sulit diakses, dan perubahan dinamis dalam konten website dapat mempengaruhi konsumsi energi dan jejak karbon.
+### 3 Poin Penting tentang Jejak Karbon
+
+1. **Sumber Energi Penggunaan**: Jejak karbon suatu website sangat dipengaruhi oleh sumber energi yang digunakan oleh pusat data dan perangkat pengguna. Penggunaan energi terbarukan menghasilkan emisi yang lebih rendah dibandingkan dengan energi fosil.
+
+2. **Kompleksitas Infrastruktur**: Jejak karbon website melibatkan berbagai elemen infrastruktur, termasuk server, jaringan internet, dan perangkat pengguna, yang semuanya berkontribusi pada konsumsi energi dan emisi karbon.
+
+3. **Dampak Konten dan Pengguna**: Ukuran dan jenis konten website (seperti gambar, video, dan interaktivitas) mempengaruhi jejak karbon. Selain itu, perangkat yang digunakan oleh pengguna dan kecepatan internet mereka juga berpengaruh pada konsumsi energi dan emisi.

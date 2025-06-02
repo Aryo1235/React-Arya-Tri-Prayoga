@@ -8,5 +8,5 @@ function findLargest(arr) {
   return largest;
 }
 
-const numbers = [7, 6, 9, 15, 10];
+const numbers = [7, 6, 20, 15, 10];
 console.log(findLargest(numbers));

@@ -66,3 +66,25 @@ console.log(evan.split("1"));
 
 console.log(typeof name1.join([", "]));
 console.log(array);
+
+function generateFizzBuzz(limit = 100) {
+  const result = [];
+
+  for (let i = 1; i <= limit; i++) {
+    if (i % 15 === 0) {
+      result.push("FizzBuzz");
+    } else if (i % 3 === 0) {
+      result.push("Fizz");
+    } else if (i % 5 === 0) {
+      result.push("Buzz");
+    } else {
+      result.push(i);
+    }
+  }
+
+  return result;
+}
+
+// Contoh pemakaian (misalnya di React)
+const fizzBuzzData = generateFizzBuzz(100);
+console.log(fizzBuzzData); // opsional, kalau mau cek di devtool
